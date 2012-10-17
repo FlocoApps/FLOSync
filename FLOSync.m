@@ -245,7 +245,7 @@ FLOSync* selfinstance=nil;
             
             else if([recent isEqualToString:@"remote"])
             {
-                [toDo setOperation:FLOSyncOperationUploadFile];
+                [toDo setOperation:FLOSyncOperationDownloadFile];
                 [syncingInstructions addInstruction:toDo];
             }
             
